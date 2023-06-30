@@ -2,15 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
-
-// import {splitIntoWords, sum} from "./01/01";
-
-
-// Test of SplitIntoWords
-// console.log(splitIntoWords("aaa")[0]==="Hello")
-// console.log(splitIntoWords("aaa")[1]==="my")
-// console.log(splitIntoWords("aaa")[2]==="friends.")
 
 
 
