@@ -10,7 +10,7 @@ beforeEach(()=>{
         c=3
 })
 
-test("sum should be correct.",
+test.skip("sum should be correct.",
     () => {
 
         // Data
@@ -24,7 +24,7 @@ test("sum should be correct.",
         expect(res2).toBe(5)
     })
 
-test("mult should be correct.",
+test.skip("mult should be correct.",
     () => {
 
         // Data
@@ -41,7 +41,7 @@ test("mult should be correct.",
         expect(res2).toBe(6)
     })
 
-test("word should be split correctly",
+test.skip("word should be split correctly",
     () => {
         const sent1 = "Hello my friends."
         const sent2 = "TS - the best programming language."

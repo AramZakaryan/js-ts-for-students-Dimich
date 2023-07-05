@@ -5,7 +5,8 @@ export type CityType = {
     citizensNumber: number
 }
 
-type HouseType = {
+export type HouseType = {
+    id?: number
     builtAt: number
     repaired: boolean
     address: AddressType

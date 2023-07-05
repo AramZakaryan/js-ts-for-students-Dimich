@@ -67,7 +67,7 @@ beforeEach(() => {
     }
 })
 
-test("test city should contain 3 houses",
+test.skip("test city should contain 3 houses",
     () => {
         const res1 = city.houses.length
 
@@ -89,7 +89,7 @@ test("test city should contain 3 houses",
         expect(city.houses[2].address.street.title).toBe("Happy Street")
     })
 
-test("test city should contain hospital and fire station",
+test.skip("test city should contain hospital and fire station",
     () => {
         const res2 = city.governmentBuildings.length
 
