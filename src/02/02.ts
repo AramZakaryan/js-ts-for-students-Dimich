@@ -24,6 +24,6 @@ type StreetType = {
 export type GovernmentBuildingType = {
     type: "HOSPITAL" | "FIRE-STATION" //string
     budget: number
-    staffCount: Number
+    staffCount: number
     address: AddressType
 }
