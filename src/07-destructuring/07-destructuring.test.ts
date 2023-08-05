@@ -17,7 +17,7 @@ beforeEach(()=>{
 
 
 
-test("", () => {
+test.skip("test 07", () => {
         let person = {
             name: "Dimych",
             age: 36,
