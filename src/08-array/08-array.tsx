@@ -18,8 +18,14 @@ export const gago = {
 
 }
 
+const a = "address"
+const c = "city"
+const t = "title"
+
+
 // console.log(gago.address.city.title)
 // console.log(gago["address"]["city"]["title"])
+console.log(gago[a][c][t])
 
 let myArr = [
     "Emma",
@@ -63,9 +69,9 @@ myFamilyObj[newMember.id]=newMember
 delete myFamilyObj["100"]
 
 
-console.log(
-    myFamilyObj
-)
+// console.log(
+//     myFamilyObj
+// )
 
 
 
