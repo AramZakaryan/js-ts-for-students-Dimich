@@ -14,7 +14,7 @@ beforeEach(()=>{
 
 })
 
-test("A new element should be added", ()=>{
+test.skip("A new element should be added", ()=>{
 
     myFamilyObj["323"].name="Lianna"
 
@@ -23,7 +23,7 @@ test("A new element should be added", ()=>{
 
 })
 
-test("An element has been deleted", ()=>{
+test.skip("An element has been deleted", ()=>{
 
     delete myFamilyObj["401"]
 

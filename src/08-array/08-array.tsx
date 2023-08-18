@@ -25,7 +25,7 @@ const t = "title"
 
 // console.log(gago.address.city.title)
 // console.log(gago["address"]["city"]["title"])
-console.log(gago[a][c][t])
+// console.log(gago[a][c][t])
 
 let myArr = [
     "Emma",
