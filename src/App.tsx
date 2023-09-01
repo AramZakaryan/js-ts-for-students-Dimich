@@ -1,13 +1,12 @@
 import React from 'react';
 import './App.css';
-import {gago, MyArrComp} from "./08-array/08-array";
-import {AnkapComp} from "./09-mutability/09-mutability";
+import {AnkapComp10} from "./10-immutability/10-immutability";
 
 
 function App() {
     return (
         <div className="App">
-    <AnkapComp/>
+    <AnkapComp10/>
         </div>
     );
 }
