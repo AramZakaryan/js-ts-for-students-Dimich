@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import {AnkapComp10} from "./10-immutability/10-immutability";
+import {AnkapComp10plus} from "./10plus-immutability/10plus-immutability";
 
 
 function App() {
     return (
         <div className="App">
-    <AnkapComp10/>
+    <AnkapComp10plus/>
         </div>
     );
 }

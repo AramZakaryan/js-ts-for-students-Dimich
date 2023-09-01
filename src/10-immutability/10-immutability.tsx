@@ -45,8 +45,8 @@ type programmerWithBooksType = programmerType & {
     books: string[]
 }
 
-let programmerWithBooks: programmerWithBooksType = {
-    name: "Babken",
+let myObj: programmerWithBooksType = {
+    name: "Gago",
     age: 33,
     address: {
         street: "Liberte",
@@ -67,4 +67,9 @@ const removeBook = (person: programmerWithBooksType, bookToBeRemoved: string) =>
     ...person, books: person.books.filter(el=>el!==bookToBeRemoved)
 })
 
-console.log(removeBook(programmerWithBooks, "react").books)
+// console.log(removeBook(programmerWithBooks, "react").books)
+
+console.log(JSON.parse(JSON.stringify(myObj)))
+
+
+
